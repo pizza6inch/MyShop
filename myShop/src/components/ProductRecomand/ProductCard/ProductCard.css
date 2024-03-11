@@ -1,0 +1,43 @@
+.Product-card{
+    width: 23%;
+    height: 320px;
+}
+
+.Product-card img{
+    width: 100%;
+    height: 250px;
+}
+
+.Product-card .Title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.Product-card .Info-Wrapper{
+    display: flex;
+    align-items: start;
+}
+
+.Info-Wrapper .Price{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #DB4444;
+}
+
+.Info-Wrapper .Rating{
+    display: flex;
+    margin-left: 10px;
+}
+
+.Info-Wrapper .Rating img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.Info-Wrapper .Comments{
+    font-size: 1em;
+    align-self: center;
+    margin-left: 10px;
+    color: gray;
+}

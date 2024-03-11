@@ -1,10 +1,11 @@
 import Header from "../components/Header/Header";
+import ProductRecomand from "../components/ProductRecomand/ProductRecomand";
 import Footer from "../components/Footer/Footer";
 function Home() {
   return (
     <div>
       <Header />
-      {/* <h1>Home</h1> */}
+      <ProductRecomand />
       <Footer />
     </div>
   );

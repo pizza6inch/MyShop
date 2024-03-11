@@ -1,0 +1,80 @@
+.ProductRecomand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.ProductRecomand .Header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 86%;
+}
+
+.Header .Title-Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Title-Wrapper .Icon-Wrapper{
+    display: flex;
+}
+
+.Icon-Wrapper .Rectangle{
+    width: 20px;
+    height: 40px;
+    background-color: #DB4444;
+    border-radius: 5px;
+    margin-right: 15px;
+    /* transform: translate(0, -25%); */
+}
+
+.Icon-Wrapper .Text{
+    font-size: 2em;
+    font-weight: bold;
+    color: #DB4444;
+    /* drop shadow effect not too strong*/
+    text-shadow: 2px 2px 2px #000;
+}
+
+.Title-Wrapper .Title{
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.Header .Button-Wrapper{
+    display: flex;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.Button-Wrapper img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.ProductRecomand .Content{
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    flex-wrap: wrap;
+}
+
+.ProductRecomand button{
+    width: 350px;
+    height: 80px;
+    background-color: #DB4444;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
