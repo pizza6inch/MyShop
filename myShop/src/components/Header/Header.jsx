@@ -1,9 +1,12 @@
 import "./Header.css";
-import logo from "../../assets/pizza.png";
+import Logo from "../../assets/pizza.png";
 import Vector from "../../assets/Search.svg";
 import Wishlist from "../../assets/Wishlist.svg";
 import Cart from "../../assets/Cart.svg";
 import User from "../../assets/user.svg";
+import User2 from "../../assets/user2.svg";
+import Mallbag from "../../assets/mallbag.svg";
+import Logout from "../../assets/logout.svg";
 
 import React, { useState } from "react";
 function Header() {
@@ -13,7 +16,7 @@ function Header() {
       <div className="Header-Wrapper">
         <div className="Nav-Wrapper">
           <div className="Logo-Wrapper">
-            <img className="Logo" src={logo} alt="Pizza" />
+            <img className="Logo" src={Logo} alt="Pizza" />
             <div className="Text">Pizza</div>
           </div>
           <div className="Nav">
@@ -21,7 +24,7 @@ function Header() {
             <div className="Nav-Item">Products</div>
             <div className="Nav-Item">About</div>
             <div className="Nav-Item">Sign Up</div>
-            <div className="Nav-Item">MyStore</div>
+            <div className="Nav-Item">MyShop</div>
           </div>
         </div>
         <div className="Icon-Wrapper">
@@ -39,9 +42,18 @@ function Header() {
             />
             {DropDownIsOpen && (
               <div className="DropDown">
-                <div className="DropDown-Item">Profile</div>
-                <div className="DropDown-Item">My Order</div>
-                <div className="DropDown-Item">Logout</div>
+                <div className="DropDown-Item">
+                  <img src={User2} alt="User2" />
+                  <div className="Text">Profile</div>
+                </div>
+                <div className="DropDown-Item">
+                  <img src={Mallbag} alt="mallbag" />
+                  <div className="Text">My Order</div>
+                </div>
+                <div className="DropDown-Item">
+                  <img src={Logout} alt="Logout" />
+                  <div className="Text">Logout</div>
+                </div>
               </div>
             )}
           </div>

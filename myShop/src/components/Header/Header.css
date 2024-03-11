@@ -81,7 +81,7 @@
     padding: 10px;
     border-radius: 5px;
     font-size: 1em;
-    
+    outline: none;
 }
 
 .SearchBar img{
@@ -109,10 +109,32 @@
     top: 125px;
     right:7%;
     width: 225px;
-    height: 200px;
+    height: 150px;
     background: #fff;
     border: 1px solid #d9d9d9;
     z-index: 1;
-    filter: blur(2px);
+}
+
+.DropDown .DropDown-Item{
+    width: 100%;
+    display: flex;
+    align-items: space-between;
+    padding-left: 10px;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+
+.DropDown-Item:hover{
+    background: #d9d9d9;
+}
+
+.DropDown-Item img{
+    margin-right: 10px;
+}
+
+.DropDown-Item .Text{
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
