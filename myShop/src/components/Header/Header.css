@@ -1,0 +1,118 @@
+
+
+.Header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.Header .Header-Wrapper{
+    width: 86%;
+    height: 125px;
+    display: flex;
+    padding-bottom: 30px;
+    /* // background: #000; */
+}
+
+.Header .Nav-Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.Nav-Wrapper .Logo-Wrapper{
+    display: flex;
+    align-items: end;
+    width: 30%;
+    height: 100%;
+}
+
+.Logo-Wrapper img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.Logo-Wrapper .Text{
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+
+.Nav-Wrapper .Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 90%;
+    height: 100%;
+    font-size: 1.5em;
+}
+
+.Nav .Nav-Item{
+    cursor: pointer;
+}
+
+.Nav-Item:hover{
+    text-decoration: underline;
+}
+
+.Header-Wrapper .Icon-Wrapper{
+    display: flex;
+    align-items: end;
+    width: 50%;
+    height: 100%;
+    justify-content: end;
+}
+
+.Icon-Wrapper .SearchBar{
+    display: flex;
+    align-items: end;
+    width: 300px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.SearchBar input{
+    width: 250px;
+    height: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    
+}
+
+.SearchBar img{
+    width: 50px;
+    height: 50px;  
+    cursor: pointer;  
+}
+
+.Icon-Wrapper .Icons{
+    display: flex;
+    align-items: end;
+    width: 300px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.Icons img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.DropDown{
+    position: absolute;
+    top: 125px;
+    right:7%;
+    width: 225px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    z-index: 1;
+    filter: blur(2px);
+}
+
